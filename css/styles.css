@@ -40,7 +40,7 @@ nav a {
 	text-decoration: none;
 	padding: 1rem .8em ;
 	justify-content: flex-end;
-	color: var(--pink);
+	color: var(--lightgold);
 	background-color: rgba(255, 255, 255, 0.26);
 	width: 100vw;
 	
@@ -70,25 +70,27 @@ h1 {
 
 .absoluteh1 {
 	position: absolute;
-	top: 20em;
-	left: 2em;
+	top: 6em;
+	left: 1em;
+	font-size: 2em;
 }
 
 
 .absolutep {
 	position: absolute;
-	top: 4.5em;
+	top: 6.5em;
 	left: 1em;
-	font-size: 1.3rem;
+	font-size: 1.7rem;
 	color: white;
 	font-weight: bold;
 }
 
 span{
-	font-size: 2em;
+	font-size: 1.5em;
+	padding: .5em;
 }
 
-.punch{
+ch{
 	background: white;
 color: black;
 mix-blend-mode: screen;
@@ -211,16 +213,17 @@ line-height: 1.2;
 	align-items: center;
 	display: flex;
 	justify-content: center;
+	text-align: center;
+	
 
 }
 
-.fa-facebook-f, .far, .fas, .link{
-	text-align: center;
+.link{
+
 	font-size: 3em;
 	padding: 1em .5em;
 	align-items: center;
 	color: black;
- 
 }
 
 
@@ -255,7 +258,7 @@ padding: 1em;
 }
 
 form input{
-	border: 2px solid  black;
+	border: 2px solid  rgb(34, 32, 32);
  	line-height: 1.7;
 	font-size: 1.5rem;
 	letter-spacing: .4;
@@ -289,6 +292,7 @@ padding: 1em;
 	color: white;
 	background-color: var(--lightpink);
 	cursor: pointer;
+	border: 2px solid rgb(95, 85, 85);
 }
 
 
